@@ -1,7 +1,7 @@
-import Image from 'next/image'
+import 'global.css'
 
 export default function Home() {
   return (
-  <div><h1>Home</h1></div>
+  <div><h1 className='text-5xl'>Home</h1></div>
   )
 }
